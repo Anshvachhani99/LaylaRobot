@@ -74,15 +74,15 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hello, I'M Layla
+Hello, I'M Akansha ❤
 `ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ! ʜɪᴛ` /help
-Maintained by @HEROGAMERS1 ❤
+Maintained by Akansha ❤
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️", url="t.me/LaylaRobot?startgroup=true"),
+            text="➕️ ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️", url="t.me/Akansha_Love_bot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="ᴀʙᴏᴜᴛ", callback_data="layla_"),
@@ -93,7 +93,7 @@ buttons = [
     [
         InlineKeyboardButton(text="ʟᴏɢꜱ", url=f"https://t.me/laylalogs"),
         InlineKeyboardButton(
-            text="ꜰᴇᴅᴇʀᴀᴛɪᴏɴ", url=f"https://t.me/AntiRippingOrganization/410"
+            text="ꜰᴇᴅᴇʀᴀᴛɪᴏɴ", url=f"https://t.me/joinchat/jmWk0IiAx8NiYTBl"
         ),
     ],
     [
@@ -105,13 +105,13 @@ buttons = [
 HELP_STRINGS = """
 `Hi.. I'M` Layla
 `ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..`
-Powered by :- [Awesome Bots](t.me/Laylalist)"""
+Powered by :- [Akansha❤](https://t.me/joinchat/jmWk0IiAx8NiYTBl)"""
 
 layla_IMG = "https://telegra.ph/file/524b78577a42b02b2f074.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project [Hero](t.me/HEROGAMERS1) \
- Supporting isnt always financial! [AwesomeSupport](t.me/LaylaList) \
+ You can support the project [Hero](https://t.me/joinchat/jmWk0IiAx8NiYTBl) \
+ Supporting isnt always financial! [Akansha❤](https://t.me/joinchat/jmWk0IiAx8NiYTBl) \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
 IMPORTED = {}
@@ -365,10 +365,10 @@ def layla_about_callback(update, context):
                  \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  \n❍ I check for admins' permissions before executing any command and more stuffs
                  \n\n_Layla's licensed under the GNU General Public License v3.0_
-                 \n❍ Awesome Bots @LaylaList
-                 \n❍ Support Group @AwesomeSupport
-                 \n❍ Assistant @LaylaAssistant.
-                 \nHere is the [💾Repository](https://github.com/QueenArzoo/LaylaRobot).
+                 \n❍ Awesome Bot 😍love 😉💯👭💋👑👵👵
+                 \n❍ Support Group Love you🤟❤😘
+                 \n❍ Assistant Akansha❤❤.
+                 \nHere is the [💾Repository](https://t.me/joinchat/jmWk0IiAx8NiYTBl).
                  \n\nIf you have any question about Layla, let us know at .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -395,8 +395,8 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *Layla*
-                 \nHere is the [Source Code](https://github.com/QueenArzoo/LaylaRobot) .""",
+            text=""" Hi..🤗 I'm *Akansha❤*
+                 \nHere is the [Source Code](https://t.me/joinchat/jmWk0IiAx8NiYTBl) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
