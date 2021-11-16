@@ -74,26 +74,26 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hello, I'M Layla
+Hello, I'M Akansha...❤
 `ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ! ʜɪᴛ` /help
-Maintained by @HEROGAMERS1 ❤
+Maintained by Akansha ❤
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️", url="t.me/LaylaRobot?startgroup=true"),
+            text="➕️ ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️", url="t.me/Akansha_Love_bot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="ᴀʙᴏᴜᴛ", callback_data="layla_"),
         InlineKeyboardButton(
-            text="ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"
+            text="ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/joinchat/jmWk0IiAx8NiYTBl"
         ),
     ],
     [
-        InlineKeyboardButton(text="ʟᴏɢꜱ", url=f"https://t.me/laylalogs"),
+        InlineKeyboardButton(text="ʟᴏɢꜱ", url=f"https://t.me/joinchat/jmWk0IiAx8NiYTBl"),
         InlineKeyboardButton(
-            text="ꜰᴇᴅᴇʀᴀᴛɪᴏɴ", url=f"https://t.me/AntiRippingOrganization/410"
+            text="ꜰᴇᴅᴇʀᴀᴛɪᴏɴ", url=f"https://t.me/joinchat/jmWk0IiAx8NiYTBl"
         ),
     ],
     [
@@ -105,13 +105,13 @@ buttons = [
 HELP_STRINGS = """
 `Hi.. I'M` Layla
 `ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..`
-Powered by :- [Awesome Bots](t.me/Laylalist)"""
+Powered by :- [Akansha Bots](https://t.me/joinchat/jmWk0IiAx8NiYTBl)"""
 
 layla_IMG = "https://telegra.ph/file/524b78577a42b02b2f074.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project [Hero](t.me/HEROGAMERS1) \
- Supporting isnt always financial! [AwesomeSupport](t.me/LaylaList) \
+ You can support the project [Hero](https://t.me/joinchat/jmWk0IiAx8NiYTBl) \
+ Supporting isnt always financial! [Akansha](https://t.me/joinchat/jmWk0IiAx8NiYTBl) \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
 IMPORTED = {}
