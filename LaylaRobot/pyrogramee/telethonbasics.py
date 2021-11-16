@@ -155,7 +155,7 @@ async def progress(current, total, event, start, type_of_ps, file_name=None):
 def humanbytes(size):
     """Input size in bytes,
     outputs in a human readable format"""
-    # https://stackoverflow.com/a/49361727/4723940
+    # https:/.com/a/49361727/4723940
     if not size:
         return ""
     # 2 ** 10 = 1024
